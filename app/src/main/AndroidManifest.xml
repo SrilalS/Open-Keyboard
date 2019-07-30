@@ -15,6 +15,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="rkr.simplekeyboard.inputmethod">
 
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -23,10 +24,11 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher_keyboard"
         android:label="@string/english_ime_name"
-        android:supportsRtl="true">
+        android:supportsRtl="true"
+        tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".keyboard.SetupActivity"
-            android:label="@string/english_ime_setup">
+            android:label="Open Keyboard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,7 +38,7 @@
         <!-- Services -->
         <service
             android:name=".latin.LatinIME"
-            android:label="@string/english_ime_name"
+            android:label="Open Keyboard"
             android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>
                 <action android:name="android.view.InputMethod" />
@@ -49,7 +51,7 @@
 
         <activity
             android:name=".latin.settings.SettingsActivity"
-            android:label="@string/english_ime_settings"
+            android:label="Open Keyboard Settings"
             android:theme="@style/platformSettingsTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
