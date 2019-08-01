@@ -24,32 +24,32 @@
     <switch>
         <case latin:showNumberRow="true">
             <Key
-                latin:keySpec="a"
+                latin:keySpec="අ"
                 latin:moreKeys="!text/morekeys_a" />
             <Key
-                latin:keySpec="b" />
+                latin:keySpec="බ්" />
             <Key
-                latin:keySpec="c"
+                latin:keySpec="ක්"
                 latin:moreKeys="!text/morekeys_c" />
             <Key
-                latin:keySpec="d"
+                latin:keySpec="ඩ්"
                 latin:moreKeys="!text/morekeys_d" />
             <Key
-                latin:keySpec="e"
+                latin:keySpec="ෙ"
                 latin:moreKeys="!text/morekeys_e" />
             <Key
-                latin:keySpec="f" />
+                latin:keySpec="ෆ්" />
             <Key
-                latin:keySpec="g"
+                latin:keySpec="ග්"
                 latin:moreKeys="!text/morekeys_g" />
             <Key
-                latin:keySpec="h"
+                latin:keySpec="හ්"
                 latin:moreKeys="!text/morekeys_h" />
             <Key
-                latin:keySpec="i"
+                latin:keySpec="ි"
                 latin:moreKeys="!text/morekeys_i" />
             <Key
-                latin:keySpec="j"
+                latin:keySpec="ජ්"
                 latin:moreKeys="!text/morekeys_j" />
         </case>
         <default>
