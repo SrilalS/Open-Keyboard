@@ -5,14 +5,14 @@ android {
     buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "rkr.simplekeyboard.inputmethod"
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 28
-        versionCode 59
-        versionName "3.9"
+        versionCode 72
+        versionName "4.2"
     }
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
